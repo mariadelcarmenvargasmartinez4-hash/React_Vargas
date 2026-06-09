@@ -2,7 +2,7 @@ name: Mi primer Push
 
 # Se activa de forma automática al hacer un push
 on:
-  push:
+  push_requests:
 
 jobs:
   Tarea1:
