@@ -1,0 +1,21 @@
+# Nombre del WorkFlow
+name: Hola Mundo
+
+# Evento: Permite activarlo manualmente desde la pestaña "Actions"
+on:
+  workflow_dispatch:
+
+# Trabajos
+jobs:
+  # Tarea 1
+  hello:
+    runs-on: ubuntu-latest # Sistema operativo virtual
+
+    # Pasos que se ejecutan en orden
+    steps:
+      - name: decir-hola
+        run: echo "Hola a todos"
+
+      # Solución al Desafío 01: Desplegar la fecha del sistema
+      - name: decir-fecha
+        run: date
