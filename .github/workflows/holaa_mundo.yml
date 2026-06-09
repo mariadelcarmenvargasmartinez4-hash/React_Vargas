@@ -8,7 +8,7 @@ on:
 # Trabajos
 jobs:
   # Tarea 1
-  hello:
+  Carmen:
     runs-on: ubuntu-latest # Sistema operativo virtual
 
     # Pasos que se ejecutan en orden
